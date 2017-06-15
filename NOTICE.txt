@@ -1,0 +1,2 @@
+AnnotationClaim
+Copyright 2017 Red Hat Inc. and individual contributors identified by the @authors tag.
