@@ -106,6 +106,10 @@ the javac warning.
 Maven Example with Takari Lifecycle Plugin
 ------------------------------------------
 
+Note that this does not work reliably for multi-module projects - for some reason
+takari-lifecycle-plugin seems to leave annotation processors like AnnotationClaim
+off the classpath when doing recursive builds.
+
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 ...
